@@ -15,7 +15,7 @@ if($insert){
     echo '
     <script>
     alert("Registration Successful!");
-    window.location = "../"
+    window.location = "index.html"
     </script>
 
 ';
@@ -24,7 +24,7 @@ else{
     echo '
     <script>
     alert("Some Error Occured!");
-    window.location = "../routes/register.html"
+    window.location = "register.html"
     </script>
 
 ';
@@ -34,7 +34,7 @@ else{
     echo '
         <script>
         alert("Password and Confirm password does not matched!");
-        window.location = "../routes/register.html"
+        window.location = "register.html"
         </script>
     
     ';
