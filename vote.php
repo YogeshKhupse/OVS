@@ -19,7 +19,7 @@ if($update_votes and $update_user_status){
     echo '
     <script>
         alert("Voting Successful!");
-        window.location = "../routes/dashboard.php";
+        window.location = "dashboard.php";
     </script>
     ';
 }
@@ -27,7 +27,7 @@ else{
     echo '
     <script>
         alert("Some Error Occured!");
-        window.location = "../routes/dashboard.php"
+        window.location = "dashboard.php"
     </script>
 
 ';
