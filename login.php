@@ -18,7 +18,7 @@ if(mysqli_num_rows($check)>0){
 
     echo '
     <script>
-    window.location = "../routes/dashboard.php";
+    window.location = "dashboard.php";
     </script>
 ';
 
@@ -27,7 +27,7 @@ else{
     echo '
     <script>
     alert("Sorry you are not registered!");
-    window.location = "../";
+    window.location = "index.html";
     </script>
 ';
 }
